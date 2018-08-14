@@ -1,11 +1,10 @@
 class App < Sinatra::Base
  
 -  get '/' do 
--    "Welcome to your app!!!! "
-+  get '/' do
-+    "Started my server using Shotgun!"
+-    "Something about Karlie"
++  get '/kitty' do
++    "Hello Kitty"
    end
 -
--end 
-+  
+get '/kitt
 +end
